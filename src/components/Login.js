@@ -21,7 +21,7 @@ const Login = () => {
             <input type="text" placeholder='Email Address' className='p-4 my-4 w-full bg-gray-700'></input>
             <input type="password" placeholder='Password' className='p-4 my-4 w-full bg-gray-700'></input>
             <button className='p-4 my-4 bg-red-700 w-full rounded-lg'>{isSignInForm ? 'Sign In' : 'Sign Up'}</button>
-            <p className='py-4 cursor-pointer' onClick={toggleSignInForm}>{isSignInForm ? 'New to Netflix? Sign Up Now' : 'Already registered? Sign In Now'}</p>
+            <p className='py-4 cursor-pointer' onClick={toggleSignInForm}>{isSignInForm ? 'New to Netflix? Sign Up Now' : 'Already registered? Sign In Now'}</p>  
         </form>
     </div>
   )
